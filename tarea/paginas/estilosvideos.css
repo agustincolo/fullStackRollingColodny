@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+}
+
+a li ul {
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.titulo {
+    font-family: "Malgun Gothic";
+}
+
+h2 {
+    font-family: "Malgun Gothic";
+}
+
+a {
+    text-decoration: none;
+    font-family: "Malgun Gothic";
+    font-size: 1.2em;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    background: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li a {
+    padding: 0 16px;
+}
+
+.canciones {
+    position: relative;
+    margin: 50px auto;
+    width: 650px;
+    height: 750px;
+}
+
+.cancion_1 {
+    position: absolute;
+    right: 0;
+    
+}
+
+.cancion_2 {
+    position: absolute;
+    left: 0;
+}
+
+.cancion_3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.cancion_4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.musica_rock {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size: 4.2em;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,
+    CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    position: relative;
+    bottom: 100px;
+}
+
+.cancion_pop_1 {
+    position: absolute;
+}
+
+.cancion_pop_2 {
+    position: absolute;
+    right: 0;
+}
+
+.cancion_pop_3 {
+    position: absolute;
+    bottom: 0;
+}
+
+.cancion_pop_4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.musica_pop {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size: 2.3em;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,
+    CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    position: relative;
+    right: 3px;
+    bottom: 120px;
+}
