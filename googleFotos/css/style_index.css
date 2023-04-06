@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans",arial,sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    outline: 1px solid grey;
+}
+
+ul{
+    display: flex;
+}
+
+ul li a {
+    padding: 0 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.login {
+    padding: 16px;
+    background-color: #1a73e8;
+    color: white; 
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.login:hover {
+    background-color: #185abc;
+    box-shadow: 0 1px 2px 0 grey;
+}
+
+.descargar{
+    color: #1a73e8;
+}
+
+.contenedor {
+    position: relative;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main_animated {
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 200px;
+    margin: 20px;
+    text-align: center;
+    animation-name: animacionContenedor;
+    animation-duration: 2s;
+}
+
+.titulo {
+    font-size: 4rem;
+    padding: 0px 0px 40px 0px;
+    letter-spacing: 1px;
+    opacity: 80%;
+
+}
+
+@keyframes  animacionContenedor {
+    from {
+        top: 170px;
+        opacity: 0;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+
+img {
+    position: relative;
+} 
+
+#foto1 {
+    position: absolute;
+    left:0px;
+    border-radius: 0 10px 10px 0;
+    bottom: 0;
+    width: 27%;
+}
+
+#foto3 {
+    position: absolute;
+    top:82px;
+    border-radius: 0 10px 10px 0;
+    width: 18%;
+}
+
+#foto2 {
+    position: absolute;
+    right: 100px;
+    bottom: 90px;
+    width: 15%;
+    border-radius: 10px;
+}
+
+#foto4 {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    border-radius: 10px;
+}
+
+#foto5 {
+    position: absolute;
+    left: 40%;
+    top: 12%;
+    border-radius: 10px;
+}
+
+#foto6 {
+    position: absolute;
+    left: 40%;
+    bottom: 0%;
+    border-radius: 10px;
+}
